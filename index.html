@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Běh hasičů do Svatohorských schodů 2026</title>
+<meta name="description" content="Unikátní závod dvojic hasičů s dýchacím přístrojem v běhu do schodů na Svatou Horu v Příbrami. 18. ročník – 12. září 2026.">
+<meta name="google-site-verification" content="DM0JD0cUCjIbVj53Wb0JWqUFirXtVu3rN-mKKF_fCFc">
+<meta name="theme-color" content="#0d0f0d">
+<meta property="og:title" content="Běh hasičů do Svatohorských schodů 2026">
+<meta property="og:description" content="Závod dvojic hasičů v plné výstroji do schodů na Svatou Horu v Příbrami. 12. září 2026.">
+<meta property="og:image" content="https://www.sv-schody.cz/images/pozar40_1.jpg">
+<meta property="og:url" content="https://www.sv-schody.cz/">
+<link rel="icon" href="images/logo26.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0d0f0d;
+  --ink-2:#1a1e1a;
+  --paper:#f4f6f3;
+  --card:#ffffff;
+  --line:#dbe2d9;
+  --muted:#545e55;
+  --green-dark:#005a00;
+  --green:#007f00;
+  --green-light:#5cc85c;
+  --radius:14px;
+  --wrap:1120px;
+  --head:"Barlow Condensed",system-ui,sans-serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--green);text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{color:var(--green-dark)}
+h1,h2,h3{font-family:var(--head);line-height:1.05;margin:0 0 .5em;letter-spacing:.01em}
+h2{font-size:clamp(2rem,5vw,3rem);font-weight:800;text-transform:uppercase}
+h3{font-size:1.45rem;font-weight:700}
+p{margin:0 0 1em}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 16px}
+@media(min-width:720px){.wrap{padding:0 28px}}
+section{padding:72px 0}
+@media(min-width:900px){section{padding:96px 0}}
+.eyebrow{font:700 .85rem/1 var(--head);letter-spacing:.18em;text-transform:uppercase;color:var(--green);margin-bottom:12px;display:block}
+.lead{font-size:1.15rem;color:var(--muted);max-width:62ch}
+
+/* ---------- header ---------- */
+.top{position:sticky;top:0;z-index:50;background:rgba(13,15,13,.92);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+.top::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:6px;background:linear-gradient(var(--green) 0 50%,#000 50%)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font:700 1.1rem/1 var(--head);text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+.brand img{width:36px;height:36px}
+.brand:hover{color:#fff}
+.nav{display:flex;gap:4px;align-items:center}
+.nav a{color:#d6dbe1;text-decoration:none;font:600 1rem/1 var(--head);text-transform:uppercase;letter-spacing:.06em;padding:10px 10px;border-radius:8px}
+.nav a:hover,.nav a.active{color:#fff;background:rgba(255,255,255,.08)}
+.nav .fb{display:inline-flex;padding:8px}
+.nav .fb svg{width:20px;height:20px;fill:currentColor}
+.burger{display:none;background:none;border:0;color:#fff;padding:8px;margin-right:-8px;cursor:pointer}
+.burger svg{width:28px;height:28px;stroke:currentColor}
+@media(max-width:960px){
+  .burger{display:block}
+  .nav{position:absolute;left:0;right:0;top:60px;background:var(--ink);flex-direction:column;align-items:stretch;padding:8px 16px 16px;gap:0;border-bottom:1px solid rgba(255,255,255,.1);display:none}
+  .nav.open{display:flex}
+  .nav a{padding:14px 8px;font-size:1.15rem;border-bottom:1px solid rgba(255,255,255,.06);border-radius:0}
+  .nav .fb{border:0}
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:var(--ink);color:#fff;overflow:hidden;padding:56px 0 0}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 85% 10%,rgba(0,127,0,.42),transparent 60%),
+  radial-gradient(700px 400px at 0% 100%,rgba(0,0,0,.6),transparent 60%);pointer-events:none}
+.hero .wrap{position:relative;display:grid;gap:32px;align-items:center}
+@media(min-width:900px){.hero .wrap{grid-template-columns:1.25fr .75fr}.hero{padding-top:72px}}
+.hero-kicker{display:inline-flex;font-size:clamp(.75rem,3vw,.95rem)!important;line-height:1.35!important;align-items:center;gap:10px;font:700 .95rem/1 var(--head);letter-spacing:.16em;text-transform:uppercase;color:var(--green-light)}
+.hero-kicker::before{content:"";width:28px;height:2px;background:currentColor}
+.hero h1{font-size:clamp(2rem,9vw,5.4rem);font-weight:800;text-transform:uppercase;margin:16px 0 14px;line-height:.92}
+.hero h1 span{color:var(--green-light);display:block}
+.hero .sub{font-size:1.2rem;color:#c3cad2;margin-bottom:28px;max-width:46ch}
+.hero-logo{justify-self:center;width:min(52vw,340px);opacity:.95;filter:drop-shadow(0 10px 40px rgba(0,0,0,.5))}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:999px;font:700 1.05rem/1 var(--head);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:2px solid transparent;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-green{background:var(--green);color:#fff}
+.btn-green:hover{background:var(--green-dark);color:#fff}
+.btn-ghost{border-color:rgba(255,255,255,.35);color:#fff}
+.btn-ghost:hover{border-color:#fff;color:#fff}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:var(--ink-2);color:#fff}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-disabled,.btn-disabled:hover{opacity:.45;cursor:not-allowed;transform:none;user-select:none}
+.btn-green.btn-disabled:hover{background:var(--green)}
+.btn-dark.btn-disabled:hover{background:var(--ink)}
+.btn-ghost.btn-disabled:hover{border-color:rgba(255,255,255,.35)}
+
+.facts{position:relative;margin-top:56px;border-top:1px solid rgba(255,255,255,.12);display:grid;grid-template-columns:repeat(2,1fr)}
+@media(min-width:720px){.facts{grid-template-columns:repeat(4,1fr)}}
+.fact{padding:22px 4px 26px;border-right:1px solid rgba(255,255,255,.12)}
+.fact:nth-child(2n){border-right:0}
+@media(min-width:720px){.fact{padding:26px 20px 30px}.fact:nth-child(2n){border-right:1px solid rgba(255,255,255,.12)}.fact:last-child{border-right:0}.fact:first-child{padding-left:0}}
+@media(max-width:719px){.fact:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.12)}.fact:nth-child(2n){padding-left:16px}}
+.fact b{display:block;font:800 clamp(1.5rem,5vw,2.6rem)/1 var(--head);color:#fff}
+.fact span{font-size:clamp(.72rem,2.6vw,.92rem);color:#9ba5b0;text-transform:uppercase;letter-spacing:.08em}
+
+/* ---------- notice ---------- */
+.notice{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--green);border-radius:var(--radius);padding:22px 24px;display:grid;gap:14px;align-items:center;box-shadow:0 8px 30px rgba(13,15,13,.06)}
+@media(min-width:800px){.notice{grid-template-columns:1fr auto}}
+.notice h3{margin:0 0 4px}
+.notice p{margin:0;color:var(--muted)}
+.notice-wrap{margin-top:-1px;padding:28px 0 0}
+
+/* ---------- about ---------- */
+.split{display:grid;gap:40px;align-items:start}
+@media(min-width:900px){.split{grid-template-columns:1fr 1fr;gap:64px}}
+.photo{position:relative;border-radius:var(--radius);overflow:hidden;background:#000}
+.photo img{width:100%;filter:grayscale(1) contrast(1.05)}
+.photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:40px 18px 14px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#eee;font-size:.92rem}
+.photo-stack{display:grid;gap:14px}
+.info{list-style:none;padding:0;margin:24px 0 0;border-top:1px solid var(--line)}
+.info li{display:grid;grid-template-columns:130px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.info li span{color:var(--muted);font-size:.95rem}
+@media(max-width:480px){.info li{grid-template-columns:1fr;gap:0}}
+
+/* ---------- track ---------- */
+.dark{background:var(--ink);color:#e6eaee}
+.dark .lead{color:#b2bac4}
+.dark .eyebrow{color:var(--green-light)}
+.dark a{color:var(--green-light)}
+.profile{margin:36px 0 8px;background:var(--ink-2);border-radius:var(--radius);padding:20px 16px 12px;border:1px solid rgba(255,255,255,.06)}
+.profile svg{width:100%;height:auto;display:block}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}
+@media(min-width:720px){.stats{grid-template-columns:repeat(4,1fr)}}
+.stat{background:var(--ink-2);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:18px}
+.stat b{display:block;font:800 2.1rem/1 var(--head);color:#fff}
+.stat span{font-size:.9rem;color:#9ba5b0}
+.points{display:grid;gap:12px;margin-top:28px}
+@media(min-width:800px){.points{grid-template-columns:repeat(3,1fr)}}
+.point{display:flex;gap:14px;align-items:flex-start;padding:18px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);text-decoration:none;color:#e6eaee}
+.point:hover{background:rgba(255,255,255,.08);color:#fff}
+.point .dot{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font:800 1rem/1 var(--head);color:#fff}
+.point small{display:block;color:#9ba5b0;font-size:.88rem}
+.point strong{display:block;font-weight:600}
+.map{margin-top:28px;border-radius:var(--radius);overflow:hidden;border:1px solid rgba(255,255,255,.08);aspect-ratio:16/9;background:#222722}
+.map iframe{width:100%;height:100%;border:0;display:block}
+@media(max-width:600px){.map{aspect-ratio:4/5}}
+
+/* ---------- registration ---------- */
+.cards{display:grid;gap:16px;margin-top:32px}
+@media(min-width:800px){.cards{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column}
+.card .num{font:800 3rem/1 var(--head);color:var(--green);margin-bottom:6px}
+.card p{color:var(--muted);flex:1}
+.card .btn{align-self:flex-start;margin-top:6px}
+.dl{display:flex;gap:14px;align-items:center;padding:12px 0;text-decoration:none;color:var(--ink);border-top:1px solid var(--line)}
+.dl:first-of-type{border-top:0}
+.dl .ico{width:42px;height:50px;flex:none;border-radius:6px;background:var(--green);color:#fff;display:grid;place-items:center;font:800 .8rem/1 var(--head);letter-spacing:.05em}
+.dl small{display:block;color:var(--muted)}
+
+/* ---------- live ---------- */
+.video{position:relative;aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;background:#000;margin-top:28px}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.timing{display:grid;gap:10px;margin-top:28px}
+@media(min-width:800px){.timing{grid-template-columns:repeat(3,1fr)}}
+.timing div{padding:16px 18px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+.timing small{display:block;color:var(--muted);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em}
+
+/* ---------- archive ---------- */
+.archive{margin-top:32px;display:grid;gap:10px}
+.year{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.year summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:72px 1fr auto;gap:14px;align-items:center;padding:16px 18px}
+.year summary::-webkit-details-marker{display:none}
+.year summary .y{font:800 1.9rem/1 var(--head);color:var(--ink)}
+.year summary .r{font:700 1rem/1.2 var(--head);text-transform:uppercase;letter-spacing:.06em}
+.year summary .d{display:block;color:var(--muted);font-size:.92rem;font-family:var(--body);text-transform:none;letter-spacing:0;font-weight:400}
+.year summary .chev{width:22px;height:22px;transition:transform .2s;color:var(--muted)}
+.year[open] summary .chev{transform:rotate(180deg)}
+.year[open] summary{border-bottom:1px solid var(--line)}
+.year .body{padding:14px 18px 18px 104px;display:grid;gap:8px}
+@media(max-width:600px){.year summary{grid-template-columns:auto 1fr auto;gap:12px}.year summary .y{font-size:1.6rem;min-width:3.2ch}.year .body{padding:14px 18px 18px}}
+.year .row{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
+.year .row > span{font-weight:600;min-width:70px;color:var(--muted);font-size:.92rem;text-transform:uppercase;letter-spacing:.06em}
+.chip{display:inline-block;padding:4px 12px;border-radius:999px;background:#e6ebe5;color:var(--ink);text-decoration:none;font-size:.95rem}
+.chip:hover{background:var(--green);color:#fff}
+.chip.pdf{background:var(--green);color:#fff}
+.chip.pdf:hover{background:var(--green-dark)}
+.year.cancel summary .y{color:#9aa3ad;text-decoration:line-through}
+.more{margin-top:18px}
+
+/* ---------- partners ---------- */
+.partners{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:32px}
+@media(min-width:640px){.partners{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:960px){.partners{grid-template-columns:repeat(4,1fr)}}
+.partner{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 16px 14px;display:flex;flex-direction:column;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+a.partner:hover{border-color:var(--green);box-shadow:0 6px 20px rgba(13,15,13,.08);color:var(--ink)}
+.partner .logo{height:84px;display:grid;place-items:center;margin-bottom:12px}
+.partner .logo img{max-height:84px;max-width:100%;width:auto;object-fit:contain}
+.partner .logo .txt{font:700 1.5rem/1 var(--head);text-align:center}
+.partner b{font-size:.98rem;line-height:1.3}
+.partner small{color:var(--muted);font-size:.85rem}
+.partner.main{grid-column:span 2}
+.partner.main .logo{height:110px}
+.partner.main .logo img{max-height:110px}
+
+/* ---------- contact ---------- */
+.contact{display:grid;gap:24px}
+@media(min-width:900px){.contact{grid-template-columns:1fr 1fr;align-items:center}}
+.contact address{font-style:normal;font-size:1.1rem;line-height:1.7}
+.contact .big{font:800 clamp(1.6rem,4vw,2.2rem)/1.1 var(--head);display:inline-block;margin:6px 0 10px;text-decoration:none}
+
+footer{background:#070807;color:#86909b;padding:28px 0;font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+footer a{color:#c3cad2}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="images/logo26.png" alt="">Běh hasičů do Svatohorských schodů</a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#o-zavodu">O závodu</a>
+      <a href="#trat">Trať</a>
+      <a href="#propozice">Propozice</a>
+      <a href="#zive">Živě</a>
+      <a href="#archiv">Archiv</a>
+      <a href="#partneri">Partneři</a>
+      <a href="#kontakty">Kontakt</a>
+      <a class="fb" href="https://www.facebook.com/SvSchody" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.5V14h2.7v8h3.3z"/></svg></a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= ÚVOD ================= -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="hero-kicker">18. ročník · o pohár starosty města Příbrami</span>
+      <h1>Běh hasičů do <span>Svatohorských schodů</span></h1>
+      <p class="sub">Dvojice hasičů v plné výstroji a s dýchacím přístrojem. 507 metrů, 80 metrů převýšení, cíl na Svaté Hoře.</p>
+      <div class="btns">
+        <a class="btn btn-green" href="#propozice">Propozice a přihláška</a>
+        <span class="btn btn-ghost btn-disabled" aria-disabled="true" title="Výsledky živě běží jen v den závodu">
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>Výsledky živě</span>
+      </div>
+    </div>
+    <img class="hero-logo" src="images/logo-hero.png" alt="Logo Běhu hasičů do Svatohorských schodů 2026">
+    <div class="facts" style="grid-column:1/-1">
+      <div class="fact"><b>12. 9. 2026</b><span>Datum závodu</span></div>
+      <div class="fact"><b>Příbram</b><span>Středočeský kraj</span></div>
+      <div class="fact"><b>75 dvojic</b><span>Kapacita</span></div>
+      <div class="fact"><b>507 m</b><span>Délka trati</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- AKTUÁLNÍ OZNÁMENÍ – text upravte podle fáze ročníku (před přihláškami / přihlášky běží / po závodě) -->
+<div class="notice-wrap">
+  <div class="wrap">
+    <div class="notice">
+      <div>
+        <h3>Přihlášky na ročník 2026: 13. července – 24. srpna</h3>
+        <p>Přihlášky přijímáme pouze on-line. Před odesláním si prosím pozorně přečtěte <a href="#propozice">propozice soutěže</a>.</p>
+      </div>
+      <span class="btn btn-dark btn-disabled" aria-disabled="true" title="Přihlášky nyní nepřijímáme">Přihláška a přihlášení</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= O ZÁVODU ================= -->
+<section id="o-zavodu">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">O závodu</span>
+      <h2>Na vlastní kůži, v plné polní</h2>
+      <p class="lead"><strong>Běh hasičů do Svatohorských schodů</strong> je unikátní závod dvojic hasičů v běhu do schodů na příbramskou dominantu – Svatou Horu.</p>
+      <p>Vzpomínáme tak na mohutný požár areálu z dubna 1978 a na vlastní kůži „v plné polní“ zkoušíme, jaké to asi mohlo být. Závod je perfektní sportovní a kulturní zážitek v jednom – stejný den totiž ožije Svatá Hora velkolepou <a href="http://salmaj.pribram.eu/">Příbramskou svatohorskou šalmají</a>.</p>
+      <ul class="info">
+        <li><span>Datum</span><b>12. září 2026</b></li>
+        <li><span>Místo</span><b>Příbram, Středočeský kraj</b></li>
+        <li><span>Pořadatel</span><a href="https://www.hasicibh.cz/">Sbor dobrovolných hasičů Březové Hory</a></li>
+        <li><span>Disciplína</span><b>závod dvojic hasičů s dýchacím přístrojem v běhu do schodů na Svatou Horu</b></li>
+        <li><span>Kapacita</span><b>75 dvojic</b></li>
+      </ul>
+      <p style="margin-top:16px;color:var(--muted)"><i>Podrobnější informace najdete v <a href="#propozice">propozicích</a>.</i></p>
+    </div>
+    <div class="photo-stack">
+      <figure class="photo" style="margin:0">
+        <img src="images/pozar40_1.jpg" alt="Požár areálu Svaté Hory v dubnu 1978" width="440" height="327" loading="lazy">
+        <figcaption>Požár areálu Svaté Hory, duben 1978</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRAŤ ================= -->
+<section id="trat" class="dark">
+  <div class="wrap">
+    <span class="eyebrow">O trati</span>
+    <h2 style="color:#fff">Z Dlouhé ulice na Svatou Horu</h2>
+    <p class="lead">Start v Dlouhé ulici, cíl na nádvoří Svaté Hory. Krátké, ale nemilosrdné – nejprudší úsek má stoupání kolem 22 %.</p>
+
+    <div class="profile" aria-hidden="true">
+      <svg viewBox="0 0 1000 260" role="img">
+        <defs>
+          <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#007f00" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#007f00" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <g stroke="rgba(255,255,255,.07)">
+          <line x1="40" x2="980" y1="40" y2="40"/><line x1="40" x2="980" y1="105" y2="105"/><line x1="40" x2="980" y1="170" y2="170"/><line x1="40" x2="980" y1="230" y2="230"/>
+        </g>
+        <g fill="#86909b" font-family="Source Sans 3, sans-serif" font-size="14">
+          <text x="34" y="234" text-anchor="end">0 m</text>
+          <text x="34" y="44" text-anchor="end">80 m</text>
+          <text x="40" y="254">start</text>
+          <text x="980" y="254" text-anchor="end">507 m · cíl</text>
+        </g>
+        <path d="M40 230 L44 230 L367 171 L692 111 L749 97 L807 83 L958 40 L980 40 L980 230 Z" fill="url(#g)"/>
+        <path d="M40 230 L44 230 L367 171 L692 111 L749 97 L807 83 L958 40 L980 40" fill="none" stroke="#5cc85c" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="40" cy="230" r="7" fill="#5cc85c" stroke="#fff" stroke-width="2"/>
+        <circle cx="980" cy="40" r="7" fill="#000" stroke="#fff" stroke-width="2"/>
+      </svg>
+    </div>
+    <p style="font-size:.85rem;color:#86909b;margin:0">Výškový profil trati (data Mapy.com).</p>
+
+    <div class="stats">
+      <div class="stat"><b>507 m</b><span>délka trati</span></div>
+      <div class="stat"><b>80 m</b><span>výškový rozdíl</span></div>
+      <div class="stat"><b>15,8 %</b><span>průměrné stoupání</span></div>
+      <div class="stat"><b>22 %</b><span>maximální stoupání</span></div>
+    </div>
+
+    <h3 style="color:#fff;margin-top:48px">Důležitá místa a GPS</h3>
+    <div class="points">
+      <a class="point" href="https://www.google.com/maps/search/?api=1&query=49.687683,14.012100">
+        <span class="dot" style="background:var(--green)">S</span>
+        <span><strong>Start – Dlouhá ulice</strong><small>N 49° 41.261 E 014° 00.726</small><small>bez možnosti parkování i stání</small></span>
+      </a>
+      <a class="point" href="https://www.google.com/maps/search/?api=1&query=49.684600,14.017350">
+        <span class="dot" style="background:#000;box-shadow:inset 0 0 0 2px var(--green-light)">C</span>
+        <span><strong>Cíl – Svatá Hora</strong><small>N 49° 41.076 E 014° 01.041</small><small>zákaz vjezdu</small></span>
+      </a>
+      <a class="point" href="https://www.google.com/maps/search/?api=1&query=49.686283,14.021633">
+        <span class="dot" style="background:#fff;color:var(--ink)">P</span>
+        <span><strong>Parkoviště (placené)</strong><small>N 49° 41.177 E 014° 01.298</small><small>navigovat v Google Maps</small></span>
+      </a>
+    </div>
+
+    <div class="map">
+      <iframe title="Mapa trati" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=14.0080%2C49.6825%2C14.0250%2C49.6895&amp;layer=mapnik&amp;marker=49.6846%2C14.01735"></iframe>
+    </div>
+    <p style="margin-top:12px;font-size:.95rem"><a href="http://maps.google.com/maps/ms?ie=UTF8&hl=cs&msa=0&msid=110131652558832378179.000481236b6079f525184&ll=49.686262,14.016516&spn=0.010856,0.01929&z=16">Otevřít mapu s důležitými body a parkovišti (Google Maps) →</a></p>
+  </div>
+</section>
+
+<!-- ================= PROPOZICE A PŘIHLÁŠKA ================= -->
+<section id="propozice">
+  <div class="wrap">
+    <span class="eyebrow">Propozice a přihláška</span>
+    <h2>Jak se přihlásit</h2>
+    <p class="lead">Řádně vyplněné přihlášky přijímáme on-line od <strong>13. července</strong> do <strong>24. srpna 2026</strong>. Kapacita závodu je 75 dvojic.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Přečtěte si propozice</h3>
+        <p>Pravidla, kategorie, povinná výstroj a časový harmonogram závodu.</p>
+        <a class="dl" href="download/schody26_propozice.pdf">
+          <span class="ico">PDF</span>
+          <span><strong>Propozice závodu 2026</strong><small>vydáno 8. července 2026</small></span>
+        </a>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Vyplňte přihlášku</h3>
+        <p>Přihláška se podává za celou dvojici na přihlašovacím webu závodu.</p>
+        <span class="btn btn-green btn-disabled" aria-disabled="true" title="Přihlášky nyní nepřijímáme">Přihláška on-line</span>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Dorazte na start</h3>
+        <p>V den závodu se hlaste na prezenci. Start je v Dlouhé ulici – parkujte na placeném parkovišti u Svaté Hory.</p>
+        <a class="btn btn-dark" href="#trat">Mapa a GPS</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ŽIVĚ ================= -->
+<section id="zive" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Živě</span>
+    <h2>Sledujte závod on-line</h2>
+    <p class="lead">Průběžné výsledky běží v den závodu na live.sv-schody.cz, závod také vysíláme živě na YouTube.</p>
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/-RhivrBO1I8" title="Běh hasičů do Svatohorských schodů – video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <h3 style="margin-top:40px">Časomíra</h3>
+    <div class="timing">
+      <div><small>Vyrobil</small><a href="https://www.fireport.cz/">FIREPORT</a></div>
+      <div><small>Příslušenství</small>startovací tlačítko, infračervená brána</div>
+      <div><small>Napájení</small>5/12 V + bateriová záloha</div>
+      <div><small>Závodníků na trati</small>neomezeno (optimálně 2–3 dvojice)</div>
+      <div><small>Tisk diplomů</small>automaticky po doběhnutí poslední dvojice</div>
+      <div><small>Průběžné výsledky</small>tiskárna + internet</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ARCHIV ================= -->
+<section id="archiv" style="background:#e9ede8">
+  <div class="wrap">
+    <span class="eyebrow">Archiv výsledků</span>
+    <h2>Všechny ročníky</h2>
+    <p class="lead">Výsledky, soupisky, fotografie a videa od nultého ročníku v roce 2007.</p>
+
+    <div class="archive">
+      <details class="year" open>
+        <summary><span class="y">2026</span><span class="r">18. ročník<span class="d">12. září 2026</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody26_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody26_propozice.pdf">Propozice</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2025</span><span class="r">17. ročník<span class="d">13. září 2025</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody25_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody25_propozice.pdf">Propozice</a></div>
+		  <div class="row"><span>Foto</span>
+			<a class="chip" href="https://photos.app.goo.gl/omaGd3LjoUoxD9rBA">Petr Čížek</a>
+			<a class="chip" href="https://eu.zonerama.com/KramarFirePhoto/Album/13878810">Marek Kramář</a>
+		  </div>
+		  <div class="row"><span>Video</span><a class="chip" href="https://youtu.be/7FKfePWHJEA">SDH Březové Hory</a></div>
+        </div>
+      </details>
+      <details class="year cancel">
+        <summary><span class="y">2024</span><span class="r">16. ročník<span class="d">14. září 2024 · zrušeno</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row">Akce byla zrušena kvůli <a href="https://cs.wikipedia.org/wiki/Povode%C5%88_v_%C4%8Cesku_(2024)">povodním</a>.</div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2023</span><span class="r">15. ročník<span class="d">9. září 2023</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody23_vysledky.pdf">Výsledky</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?vanity=SvSchody&set=a.792798802647749&type=3">Petr Čížek</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=p3nSZo5uApE">SDH Březové Hory</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2022</span><span class="r">14. ročník<span class="d">10. září 2022</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody22_vysledky.pdf">Výsledky</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?vanity=SvSchody&set=a.566857625241869&type=3">Petr Čížek</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=zVesV3TrHHA">SDH Březové Hory</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2021</span><span class="r">13. ročník<span class="d">11. září 2021</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody21_vysledky.pdf">Výsledky</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?vanity=SvSchody&set=a.5661121667251320&type=3">Petr Čížek</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=jvL6P8A3jgk">SDH Březové Hory</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2020</span><span class="r">12. ročník<span class="d">12. září 2020</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody20_vysledky.pdf">Výsledky</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?vanity=SvSchody&set=a.4674927839204046">Petr Čížek</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=x8_Mctmh-pw">GymTV</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2019</span><span class="r">11. ročník<span class="d">14. září 2019</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody19_vysledky.pdf">Výsledky</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/SvSchody/photos/?tab=album&album_id=3487992604564248">Petr Čížek</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=crHEFfjkhD8">GymTV</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2018</span><span class="r">10. ročník<span class="d">8. září 2018</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody18_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody18_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?set=a.2265182990178555&type=1&l=b74dd3c4d8">Petr Čížek</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=zOvnZYVV7JU">GymTV</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2017</span><span class="r">9. ročník<span class="d">9. září 2017</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody17_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody17_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/pg/SvSchody/photos/?tab=album&album_id=1837375326292659">Petr Čížek</a><a class="chip" href="https://www.facebook.com/pg/SvSchody/photos/?tab=album&album_id=1803280479702144">Marek Vobejda</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=sZykYEx8cD8">GymTV</a><a class="chip" href="https://www.youtube.com/watch?v=OdOkawJmB98">TV Fonka</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2016</span><span class="r">8. ročník<span class="d">10. září 2016</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody16_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody16_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://www.youtube.com/watch?v=DuOESB9waVk">TV Fonka</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2014</span><span class="r">7. ročník<span class="d">13. září 2014</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody14_vysledky.pdf">Výsledky</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?set=a.896393143724220.1073741827.147334705296738&type=1&l=65db87a1a6">Radka Blajerová</a><a class="chip" href="https://www.facebook.com/media/set/?set=a.896382637058604.1073741826.147334705296738&type=1&l=e947b3c66e">Zdeněk Velas</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="https://youtu.be/_noDUr15Tbg">SDH Borovno</a><a class="chip" href="https://youtu.be/dVrf_BUkWHw">TV Fonka</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2013</span><span class="r">6. ročník<span class="d">14. září 2013</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody13_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody13_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?set=a.849195655110636.1073741825.147334705296738&type=1&l=2bd291e80d">Petr Čížek</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2012</span><span class="r">5. ročník<span class="d">22. září 2012</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody12_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody12_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="https://www.facebook.com/media/set/?set=a.559824724047732.136409.147334705296738&type=1&l=43600c516a">Petr Čížek</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2011</span><span class="r">4. ročník<span class="d">17. září 2011</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody11_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody11_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="http://hasici.brezove-hory.cz/fotogalerie/235-beh-do-svatohorskych-schodu-petr-cizek/">Petr Čížek</a><a class="chip" href="http://icisah.rajce.idnes.cz/Beh_hasicu_do_svatohorskych_schodu_Pribram_2011/">SDH Velešín</a><a class="chip" href="http://hasiciturkovice.rajce.idnes.cz/Beh_do_Svatohorskych_schodu_Pribram_17.9.2011/">SDH Turkovice</a><a class="chip" href="http://sdhtrebsko.rajce.idnes.cz/Beh_do_svatohorskych_schodu,_1.,_2.,_4._a_31._misto,_17.9.2011/">SDH Třebsko</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="http://www.pribramsko.eu/detail.php?ID=3380&anketa_nazev=&anketa_ukonceni=ano">Reportáž pribramsko.eu</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2010</span><span class="r">3. ročník<span class="d">18. září 2010</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody10_vysledky.pdf">Výsledky</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="http://hasici.brezove-hory.cz/fotogalerie/175-beh-do-svatohorskych-schodu-vaclav-cerny/">Václav Černý</a><a class="chip" href="http://hasiciturkovice.rajce.idnes.cz/18.9.2010_-_Beh_do_Svatohorskych_schodu_Pribram/">SDH Turkovice</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="http://pribramsko.eu/detail.php?ID=2396">Reportáž pribramsko.eu</a></div>
+          <div class="row"><span>Report</span><a class="chip" href="http://www.sdhhrachov.cz/index.php/reportaze-ze-soutezi/95-beh-hasicu-na-svatohorskych-schodu-2010.html">SDH Hrachov</a><a class="chip" href="http://sdhtrebsko.zaridi.to/">SDH Třebsko</a><a class="chip" href="http://www.hasiciturkovice.cz/clanky/sport/souteze-2010.html">SDH Turkovice</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2009</span><span class="r">2. ročník<span class="d">19. září 2009</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody09_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody09_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="http://hasici.brezove-hory.cz/fotogalerie/75/">Jaroslav Haderer</a><a class="chip" href="http://hasici.brezove-hory.cz/fotogalerie/77/">Jiří Kubík</a><a class="chip" href="http://hasici.brezove-hory.cz/fotogalerie/78/">Jaroslav Roj</a></div>
+          <div class="row"><span>Video</span><a class="chip" href="http://pribramsko.eu/video-pribram-pribramsko.php?ID=210">Reportáž pribramsko.eu</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2008</span><span class="r">1. ročník<span class="d">27. září 2008</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody08_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody08_soupiska.pdf">Soupiska</a></div>
+          <div class="row"><span>Foto</span><a class="chip" href="http://hasici.brezove-hory.cz/fotogalerie/12/">Fotogalerie</a></div>
+        </div>
+      </details>
+      <details class="year">
+        <summary><span class="y">2007</span><span class="r">0. ročník<span class="d">29. září 2007</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <div class="body">
+          <div class="row"><span>Dokumenty</span><a class="chip pdf" href="download/schody07_vysledky.pdf">Výsledky</a><a class="chip" href="download/schody07_vysledky_jednotlivci.pdf">Veřejnost a jednotlivci</a></div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARTNEŘI ================= -->
+<section id="partneri">
+  <div class="wrap">
+    <span class="eyebrow">Partneři závodu</span>
+    <h2>Děkujeme</h2>
+    <p class="lead">Bez podpory těchto firem, institucí a lidí by závod nebyl možný.</p>
+    <div class="partners">
+      <a class="partner main" href="http://www.pribram-city.cz/"><span class="logo"><img src="images/partneri/pribram.png" alt="Město Příbram" loading="lazy"></span><b>Město Příbram</b><small>Záštita nad soutěží</small></a>
+      <a class="partner main" href="https://www.draeger.com/cs_cz/"><span class="logo"><img src="images/partneri/draeger.png" alt="Dräger Safety s.r.o." loading="lazy"></span><b>Dräger Safety s.r.o.</b><small>Materiální zabezpečení</small></a>
+      <a class="partner" href="https://www.energopribram.cz/"><span class="logo"><img src="images/partneri/energo.png" alt="Energo Příbram" loading="lazy"></span><b>Energo Příbram</b><small>Finanční podpora</small></a>
+      <a class="partner" href="https://www.fireport.cz/"><span class="logo"><img src="images/partneri/fireport_logo.png" alt="FRP Services, s.r.o." loading="lazy"></span><b>FRP Services, s.r.o.</b><small>Finanční podpora</small></a>
+      <a class="partner" href="http://www.halex.cz/"><span class="logo"><img src="images/partneri/halex.png" alt="Halex-Schauenberg" loading="lazy"></span><b>Halex-Schauenberg, ocelové konstrukce s.r.o.</b><small>Finanční podpora</small></a>
+      <a class="partner" href="http://www.polycasa.com/"><span class="logo"><img src="images/partneri/Polycasa_Logo.png" alt="Polycasa" loading="lazy"></span><b>Polycasa s.r.o.</b><small>Finanční podpora</small></a>
+      <a class="partner" href="http://kam-dnes-na-obed.cz/pribram/pribram/detail-restaurace/restaurace-na-vrsicku-stylova-hornicka-hospoda/168/"><span class="logo"><img src="images/partneri/na_vrsicku.png" alt="Restaurace Na Vršíčku" loading="lazy"></span><b>Restaurace Na Vršíčku</b><small>Finanční podpora</small></a>
+      <a class="partner" href="http://www.barvypribram.cz/"><span class="logo"><img src="images/partneri/barvy_pribram.png" alt="Barvy Příbram" loading="lazy"></span><b>Barvy Příbram</b><small>Finanční podpora</small></a>
+      <a class="partner" href="https://proresta.cz/"><span class="logo"><img src="images/partneri/proresta.png" alt="PRORESTA" loading="lazy"></span><b>PRORESTA, s.r.o.</b><small>Finanční podpora</small></a>
+      <a class="partner" href="https://www.cvp-galvanika.cz/"><span class="logo"><img src="images/partneri/cvp_galvanika.png" alt="CVP Galvanika" loading="lazy"></span><b>CVP Galvanika s.r.o.</b><small>Finanční podpora</small></a>
+      <a class="partner" href="http://www.cyklopro.cz/"><span class="logo"><img src="images/partneri/cyklopro.png" alt="CykloPro" loading="lazy"></span><b>CykloPro</b><small>Finanční podpora</small></a>
+      <a class="partner" href="http://www.topenarstvi-instalaterstvi-vacek.cz/"><span class="logo"><img src="images/partneri/topenarstvi_vacek.png" alt="Josef Vacek" loading="lazy"></span><b>Josef Vacek – instalatérské a topenářské práce</b><small>Finanční podpora</small></a>
+      <a class="partner" href="http://www.leseni-sykora.cz/"><span class="logo"><img src="images/partneri/leseni_sykora.png" alt="Lešení Sýkora" loading="lazy"></span><b>LEŠENÍ Sýkora s.r.o.</b><small>Pod Anenskou 245, Příbram IV · Finanční podpora</small></a>
+      <a class="partner" href="http://www.umuzeapenzion.cz/"><span class="logo"><img src="images/partneri/penzion_u_muzea.gif" alt="Penzion u muzea" loading="lazy"></span><b>Penzion u muzea</b><small>Finanční podpora</small></a>
+      <div class="partner"><span class="logo"><img src="images/partneri/bobule.png" alt="Slopatéka Bobule" loading="lazy"></span><b>Slopatéka Bobule</b><small>Finanční podpora</small></div>
+      <div class="partner"><span class="logo"><img src="images/partneri/kominictvi_bican.png" alt="Kominictví Bican" loading="lazy"></span><b>Kominictví Stanislav Bican</b><small>Brodská 97, Příbram VIII · Finanční podpora</small></div>
+      <div class="partner"><span class="logo"><img src="images/partneri/svatohorska_kavarna.png" alt="Svatohorská kavárna" loading="lazy"></span><b>Svatohorská kavárna</b><small>Svatohorská alej, Příbram · Finanční podpora</small></div>
+      <a class="partner" href="https://www.firmy.cz/detail/2208240-vinarna-u-simony-pribram-vi-brezove-hory.html"><span class="logo"><span class="txt">Vinárna<br>U Simony</span></span><b>Vinárna U Simony</b><small>Mariánská 407, Příbram VI · Finanční podpora</small></a>
+      <a class="partner" href="http://petrkaiser.cz/"><span class="logo"><img src="images/partneri/truhlarstvi_petr_kaiser.png" alt="Truhlářství Petr Kaiser" loading="lazy"></span><b>TRUHLÁŘSTVÍ Petr Kaiser s. r. o.</b><small>Finanční podpora</small></a>
+      <div class="partner"><span class="logo"><img src="images/partneri/jiri_slunicko.png" alt="Jiří Sluníčko" loading="lazy"></span><b>Jiří Sluníčko</b><small>Finanční podpora</small></div>
+      <div class="partner"><span class="logo"><img src="images/partneri/detska_obuv.png" alt="Dětská obuv" loading="lazy"></span><b>Dětská obuv Denisa Šnajdrová</b><small>Mariánská 37, Příbram IV · Ceny do soutěže</small></div>
+      <a class="partner" href="http://auta.pb.cz/"><span class="logo"><img src="images/partneri/auta_sro.png" alt="AUTA s.r.o." loading="lazy"></span><b>AUTA s.r.o.</b><small>Technické zabezpečení</small></a>
+      <a class="partner" href="https://www.1scv.cz/"><span class="logo"><img src="images/partneri/veolia_voda.png" alt="1.SčV, a.s." loading="lazy"></span><b>1.SčV, a.s.</b><small>Technické zabezpečení</small></a>
+      <a class="partner" href="https://www.heverfactory.cz/"><span class="logo"><img src="images/partneri/HEVER95.png" alt="HEVER s.r.o." loading="lazy"></span><b>HEVER s.r.o. creative factory</b><small>Finanční podpora</small></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KONTAKTY ================= -->
+<section id="kontakty" class="dark">
+  <div class="wrap contact">
+    <div>
+      <span class="eyebrow">Kontakt</span>
+      <h2 style="color:#fff">Pořadatel</h2>
+      <address>
+        <strong style="color:#fff">Sbor dobrovolných hasičů Březové Hory</strong><br>
+        Nádvoří Msgr. Korejse<br>
+        Příbram VI – Březové Hory<br>
+        261 01
+      </address>
+    </div>
+    <div>
+      <span style="color:#9ba5b0">E-mail</span><br>
+      <a class="big" href="mailto:info@sv-schody.cz">info@sv-schody.cz</a><br>
+      <span style="color:#9ba5b0">Web sboru</span><br>
+      <a class="big" href="https://www.hasicibh.cz/">hasicibh.cz</a><br>
+      <span style="color:#9ba5b0">Facebook</span><br>
+      <a class="big" href="https://www.facebook.com/SvSchody">facebook.com/SvSchody</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Běh hasičů do Svatohorských schodů · o pohár starosty města Příbrami</span>
+    <span>© 2026 <a href="https://www.hasicibh.cz/">SDH Březové Hory</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.querySelector('.burger'), nav=document.getElementById('nav');
+  btn.addEventListener('click',function(){
+    var o=nav.classList.toggle('open'); btn.setAttribute('aria-expanded',o);
+  });
+  nav.addEventListener('click',function(e){
+    if(e.target.closest('a')){nav.classList.remove('open');btn.setAttribute('aria-expanded',false);}
+  });
+  // zvýraznění aktivní sekce v menu
+  if('IntersectionObserver' in window){
+    var links={};
+    nav.querySelectorAll('a[href^="#"]').forEach(function(a){links[a.getAttribute('href').slice(1)]=a;});
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if(en.isIntersecting&&links[en.target.id]){
+          Object.values(links).forEach(function(a){a.classList.remove('active')});
+          links[en.target.id].classList.add('active');
+        }
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(links).forEach(function(id){var s=document.getElementById(id);if(s)io.observe(s);});
+  }
+})();
+</script>
+</body>
+</html>
